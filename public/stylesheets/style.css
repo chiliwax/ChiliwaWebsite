@@ -96,7 +96,10 @@ img{
     width: 100%;
     max-height: 500px;
     overflow: hidden;
-    background-color: 'white';
+  }
+
+  .home {
+    background-color: white;
   }
 
   reseau {
