@@ -172,6 +172,7 @@ h2, h3 {
   align-self: flex-start;
   padding-left: 20px;
   text-align: initial;
+  letter-spacing: 0.1em;
 }
 
 h3 {
