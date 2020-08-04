@@ -171,10 +171,14 @@ h2 {
 
 hr {
 
-  border-top: 1px dotted #CCCCCC; 
+border-top: 1px  #CCCCCC; 
 width: 100%;
 height: 0.01px;
-border-top-style: dotted;
+
+margin: 1.5rem 0 1.75rem 0;
+width: 50%;
+
+border-top-style: solid;
 border-left: none;
 border-right: none;
 border-bottom: none;
