@@ -58,6 +58,9 @@ img{
     border-radius: 25px 0px 0px 25px;
     object-fit: cover;
 }
+
+
+
 .home {
   display: flex;
   width: 75em;
@@ -67,7 +70,36 @@ img{
   max-width: calc(100vw - 6em);
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-direction: row;
 }
+@media screen and (max-width: 970px) {
+  .home {
+    flex-direction: column;
+    border-radius: 25px;
+  }
+  .content {
+    border-radius: 0px 0px 25px 25px;
+    width: 100%;
+    height: auto;
+    padding:0px;
+  }
+
+  img {
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  .image {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  reseau {
+    margin-bottom: 50px;
+  }
+
+}
+
 
 .text {
   display: flex;
