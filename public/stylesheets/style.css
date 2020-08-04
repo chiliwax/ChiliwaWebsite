@@ -164,6 +164,11 @@ h1, h2, h3 {
     letter-spacing: 0.25em;
 }
 
+h2 {
+  align-self: flex-start;
+  padding-left: 20px;
+}
+
 spoun {
   content: '';
     display: block;
