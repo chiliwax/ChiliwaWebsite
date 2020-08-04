@@ -73,9 +73,13 @@ img{
   flex-direction: row;
 }
 @media screen and (max-width: 970px) {
+  body {
+    width: 100%;
+  }
   .home {
     flex-direction: column;
     border-radius: 25px;
+    max-width: 100%;
   }
   .content {
     border-radius: 0px 0px 25px 25px;
