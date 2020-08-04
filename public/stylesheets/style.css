@@ -170,13 +170,14 @@ h2 {
 }
 
 hr {
-  content: '';
+    content: '';
     display: block;
     background-color: #cccccc;
     height: 1px;
     margin: 1.5rem 0 1.75rem 0;
     width: 50%;
     align-self: center;
+    appearance: none;
 }
 
 .button {
