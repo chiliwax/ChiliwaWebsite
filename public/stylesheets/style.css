@@ -117,6 +117,10 @@ img{
 
   .text {
     padding: 1em;
+    animation: none;
+  }
+  .text2 {
+    animation: none;
   }
 
 }
