@@ -126,6 +126,30 @@ img{
     margin-bottom: 20px;
   }
 
+  .source{
+    line-height: 1.8em !important;
+  }
+  
+  .source::after{
+    content: "\00000asource";
+    white-space: pre;
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .live{
+    line-height: 1.8em !important;
+  }
+  
+  .live::after{
+    content: "\00000aLive";
+    white-space: pre;
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
 }
 
 
@@ -322,4 +346,9 @@ i:hover{
   padding-bottom:0;
   font-size: 0.6em;
   margin-bottom: 5px;
+}
+
+a.disable {
+  pointer-events: none;
+  cursor: default;
 }

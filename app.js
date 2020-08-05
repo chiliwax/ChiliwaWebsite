@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 
 var aboutRouter = require('./routes/about');
 var workRouter = require('./routes/work');
-var contactRouter = require('./routes/contact');
+var paintingRouter = require('./routes/painting');
 
 var app = express();
 
@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/about', aboutRouter);
 app.use('/work', workRouter);
-app.use('/contact', contactRouter);
+app.use('/painting', paintingRouter);
 
 app.use('/users', usersRouter);
 
