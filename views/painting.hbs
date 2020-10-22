@@ -9,6 +9,53 @@
         <div class="text">
             <h1>Painting</h1>
             <hr>
+
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li style="position:relative" class="slider__frame glide__slide">
+                            <img class="slideshow" src="/images/slideshow/1.png" alt="Oil paint">
+                            <p class="slideshowContainerW">Montain Oil Paint</p>
+                        </li>
+                        <li style="position:relative" class="slider__frame glide__slide">
+                            <img class="slideshow" src="/images/slideshow/2.png" alt="">
+
+                        </li>
+                        <li style="position:relative" class="slider__frame glide__slide">
+                            <img class="slideshow" src="/images/slideshow/3.png" alt="">
+                        </li>
+                        <li style="position:relative" class="slider__frame glide__slide">
+                            <img class="slideshow" src="/images/slideshow/4.png" alt="">
+                        </li>
+                        <li style="position:relative" class="slider__frame glide__slide">
+                            <img class="slideshow" src="/images/slideshow/5.png" alt="">
+                        </li>
+                        <li style="position:relative" class="slider__frame glide__slide">
+                            <img class="slideshow" src="/images/slideshow/6.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class=" glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet glide__bullet--active" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                    <button class="glide__bullet" data-glide-dir="=3"></button>
+                    <button class="glide__bullet" data-glide-dir="=4"></button>
+                    <button class="glide__bullet" data-glide-dir="=5"></button>
+                </div>
+
+                <script>new Glide('.glide', {
+                        type: 'carousel',
+                        autoplay: 0,//4000,
+                        animationDuration: 600,
+                        animationTimingFunc: 'linear',
+                        perView: 1,
+                        //   peek: 300,
+                        focusAt: 0
+                    }).mount()</script>
+            </div>
+
+
             <p class="article" style="margin-bottom: 0px; text-align:justify">
                 Lorem ipsum dolor, sit amet
                 consectetur adipisicing elit. Nemo earum praesentium dicta saepe aspernatur

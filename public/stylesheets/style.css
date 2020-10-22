@@ -352,3 +352,74 @@ a.disable {
   pointer-events: none;
   cursor: default;
 }
+
+
+.slideshow {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 970px) {
+  .slideshow {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .slideshow {
+    object-fit: cover;
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slideshow {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .slideshow {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+  }
+}
+
+.slideshow:hover {
+  opacity: 0.3;
+  background-color: black;
+}
+
+.slideshow:hover ~ .slideshowContainerW {
+  display: block;
+}
+
+.slideshow:hover ~ .slideshowContainerB {
+  display: block;
+}
+
+.slideshowContainerW {
+  display: none;
+  width: 400px;
+  align-self: center;
+  text-align: center;
+  top: 0px;
+  position: absolute;
+  z-index: 10;
+  color: black;
+  border-top-left-radius: 8px ;
+  border-top-right-radius: 8px ;
+  background-color: black;
+}
